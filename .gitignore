@@ -1,0 +1,69 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==============================
+# Virtual environments
+# ==============================
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ==============================
+# Environment variables / secrets
+# ==============================
+.env
+.env.*
+*.pem
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# ==============================
+# OS / editor files
+# ==============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.temp
+logs/
+nohup.out
+
+# ==============================
+# Docker
+# ==============================
+*.pid
+
+# ==============================
+# Note on the serialized model
+# ==============================
+# The trained model files (models/*.joblib, backend/models/*.joblib) are
+# intentionally NOT ignored here — they are committed to the repository as
+# part of this academic project submission (see README's "GitHub & Large
+# File Note" section for the file-size consideration).
